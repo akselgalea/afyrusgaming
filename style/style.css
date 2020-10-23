@@ -1,0 +1,54 @@
+@font-face {
+    font-family: play;
+    src: url("play_regular.ttf");
+}
+
+:root{
+    font-size: 16px;
+    scroll-behavior: smooth;
+
+    /* Variables */
+    --fuente-afy: "play";
+    --bgcolor: white;
+    --titlecolor: black;
+    --subtitlecolor: black;
+    --smalltextcolor: black;
+}
+
+h1 {
+    color: var(--titlecolor);
+    font-family: var(--fuente-afy);
+}
+h3 {
+    color: var(--subtitlecolor);
+    font-family: var(--fuente-afy);
+}
+
+p {
+    color: var(--smalltextcolor);
+    font-family: var(--fuente-afy);
+}
+
+body{
+    max-width: 1280px;
+    height: auto;
+    margin: auto;
+    background-color: var(--bgcolor);
+}
+
+.calendario h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: bold;
+    text-shadow: 3px 0px #484848;
+}
+
+.gcalendar{
+    width: 100%;
+    height: 50vh;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: "play";
+}
